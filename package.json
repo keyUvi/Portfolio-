@@ -1,0 +1,23 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "concurrently \"npm run dev:css\" \"npm run dev:server\"",
+  "dev:css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/main.css --watch",
+  "dev:server": "node --watch server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "express": "^5.3.0",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
