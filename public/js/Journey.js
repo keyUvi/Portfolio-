@@ -37,11 +37,13 @@ if (journeyContainer) {
                     <article class="project-container group">
                         <div class="container-visual">
                             <div class="container-number">01</div>
-                            <img
+                            <a href="year1.html">
+                                <img
                                 src="/imagenes/container..png"
                                 alt="Container 01"
                                 class="container-image"
-                            >
+                                >
+                            </a>
                             <div class="container-light"></div>
                         </div>
 
@@ -50,7 +52,7 @@ if (journeyContainer) {
                             <h3 class="project-title">CONTAINER 01</h3>
                             <p class="project-description">The beginning of my journey</p>
 
-                            <a href="#year-01" class="project-button">
+                            <a href="year1.html" class="project-button">
                                 <span>SÚPERATE · YEAR 01</span>
                                 <span class="button-arrow">↗</span>
                             </a>
@@ -61,11 +63,13 @@ if (journeyContainer) {
                     <article class="project-container group">
                         <div class="container-visual">
                             <div class="container-number">02</div>
-                            <img
+                            <a href="year2.html">
+                                <img
                                 src="/imagenes/container..png"
                                 alt="Container 02"
                                 class="container-image"
-                            >
+                                >
+                            </a>
                             <div class="container-light"></div>
                         </div>
 
@@ -74,7 +78,7 @@ if (journeyContainer) {
                             <h3 class="project-title">CONTAINER 02</h3>
                             <p class="project-description">Learning and development</p>
 
-                            <a href="#year-02" class="project-button">
+                            <a href="/year2.html" class="project-button">
                                 <span>SÚPERATE · YEAR 02</span>
                                 <span class="button-arrow">↗</span>
                             </a>
@@ -85,11 +89,13 @@ if (journeyContainer) {
                     <article class="project-container group">
                         <div class="container-visual">
                             <div class="container-number">03</div>
-                            <img
+                            <a href="/year3.html">
+                                <img
                                 src="/imagenes/container..png"
                                 alt="Container 03"
                                 class="container-image"
-                            >
+                                >
+                            </a>
                             <div class="container-light"></div>
                         </div>
 
@@ -98,7 +104,7 @@ if (journeyContainer) {
                             <h3 class="project-title">CONTAINER 03</h3>
                             <p class="project-description">Growth and new goals</p>
 
-                            <a href="#year-03" class="project-button">
+                            <a href="/year3.html" class="project-button">
                                 <span>SÚPERATE · YEAR 03</span>
                                 <span class="button-arrow">↗</span>
                             </a>
@@ -109,11 +115,13 @@ if (journeyContainer) {
                     <article class="project-container group">
                         <div class="container-visual">
                             <div class="container-number">04</div>
-                            <img
+                            <a href="/personalProjects.html">
+                                <img
                                 src="/imagenes/container..png"
                                 alt="Container 04"
                                 class="container-image"
-                            >
+                                >
+                            </a>
                             <div class="container-light"></div>
                         </div>
 
@@ -122,23 +130,13 @@ if (journeyContainer) {
                             <h3 class="project-title">CONTAINER 04</h3>
                             <p class="project-description">Ideas beyond the classroom</p>
 
-                            <a href="#personal-projects" class="project-button">
+                            <a href="/personalProjects.html" class="project-button">
                                 <span>PERSONAL PROJECTS</span>
                                 <span class="button-arrow">↗</span>
                             </a>
                         </div>
                     </article>
 
-                </div>
-
-                
-                <div class="mt-20 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
-                    <p class="text-[10px] uppercase tracking-[0.25em] text-slate-500">
-                        LOGISTICS NODE_01
-                    </p>
-                    <p class="text-xs text-slate-500">
-                        Learning in progress <span class="text-cyan-400">●</span>
-                    </p>
                 </div>
 
             </div>

@@ -68,8 +68,7 @@ document.getElementById("hero-container").innerHTML = `
             <span
               class="intro-name-line intro-name-accent mt-1 block"
             >
-              RAMÍREZ<span class="text-white">.</span>
-            </span>
+              RAMÍREZ<span class="text-white">
           </h1>
 
           <h2
@@ -182,15 +181,18 @@ document.getElementById("hero-container").innerHTML = `
                    to-[#050D18]/90"
           >
 
-            <div class="relative w-40 sm:w-52 md:w-64 lg:w-80
-                aspect-[3/4] shrink-0 mx-auto"> 
-                <img 
-                    src="/imagenes/keyli.png"
-                    alt="Portrait of Keyli Ramírez"
-                    class="h-full w-full object-cover object-center"
-                    loading="eager"
-                />
-            </div>
+          <div class="relative mx-auto w-full max-w-[280px]
+            sm:max-w-[320px]
+            lg:max-w-[360px]
+            aspect-[3/4] shrink-0 overflow-hidden rounded-2xl">
+
+            <img
+              src="/imagenes/keyli.png"
+              alt="Portrait of Keyli Ramírez"
+              class="absolute inset-0 h-full w-full object-cover object-center"
+              loading="eager"/>
+
+          </div>
             
             <div
               class="pointer-events-none absolute inset-0

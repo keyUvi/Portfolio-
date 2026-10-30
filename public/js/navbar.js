@@ -12,7 +12,7 @@ document.getElementById("navbar-container").innerHTML = `
         </span>
 
         <span class="mt-1 block text-[10px] tracking-[0.3em] text-sky-300">
-          KEYLI RAMÍREZ
+          KEYLI TATIANA RAMÍREZ HERNÁNDEZ
         </span>
       </a>
 
@@ -29,23 +29,19 @@ document.getElementById("navbar-container").innerHTML = `
           Academic Journey
         </a>
 
-        <a href="/index.html#sobre-mi" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
+        <a href="/index.html#about-me" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
           About me
         </a>
 
-        <a href="/index.html#habilidades" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
+        <a href="/index.html#skills" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
           skills
         </a>
 
-        <a href="/index.html#certificaciones" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
-          Certifications
+        <a href="/index.html#education-certificates" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
+          Education & certificates
         </a>
 
-        <a href="/index.html#certificados" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
-          Certificates
-        </a>
-
-        <a href="/index.html#contacto" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
+        <a href="/index.html#contact" class="nav-link relative py-2 transition-colors duration-300 hover:text-sky-400">
           Contact
         </a>
     </nav>
@@ -93,12 +89,8 @@ document.getElementById("navbar-container").innerHTML = `
           Skills
         </a>
 
-        <a href="/index.html#certificaciones" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
-          Certifications
-        </a>
-
-        <a href="/index.html#certificados" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
-          Certificates
+        <a href="/index.html#Education&certificates" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
+          Education & certificates
         </a>
 
         <a href="/index.html#contacto" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
@@ -137,36 +129,44 @@ mobileMenu.querySelectorAll("a").forEach((link) => {
 
 const desktopLinks = document.querySelectorAll("#desktop-menu .nav-link");
 
+
 function setActiveLink() {
   const currentHash = window.location.hash || "#inicio";
+  const currentPath = window.location.pathname;
+
+  const journeyPages = [
+    "/year1.html",
+    "/year2.html",
+    "/year3.html",
+    "/personalProjects.html"
+  ];
+
+  const isJourneyPage = journeyPages.includes(currentPath);
 
   desktopLinks.forEach((link) => {
-    const linkHash = new URL(link.href).hash;
-    const isActive = linkHash === currentHash;
+    const linkUrl = new URL(link.href);
+    const linkHash = linkUrl.hash;
+    const linkPath = linkUrl.pathname;
+
+    let isActive =
+      linkPath === currentPath && linkHash === currentHash;
+
+    if (isJourneyPage && linkHash === "#my-projects") {
+      isActive = true;
+    }
 
     link.style.borderBottom = isActive
       ? "2px solid #38bdf8"
       : "2px solid transparent";
 
     link.style.color = isActive ? "#38bdf8" : "";
-    link.setAttribute("aria-current", isActive ? "location" : "false");
+    link.setAttribute(
+      "aria-current",
+      isActive ? "location" : "false"
+    );
   });
 }
 
-desktopLinks.forEach((link) => {
-  link.style.display = "inline-block";
-  link.style.textDecoration = "none";
-  link.style.borderBottom = "2px solid transparent";
-  link.style.paddingBottom = "8px";
-
-  link.addEventListener("click", () => {
-    const targetHash = new URL(link.href).hash;
-
-    if (window.location.hash === targetHash) {
-      setActiveLink();
-    }
-  });
-});
 
 setActiveLink();
 window.addEventListener("hashchange", setActiveLink);

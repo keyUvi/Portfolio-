@@ -1,4 +1,5 @@
-@import "tailwindcss";
+@import "tailwindcss"; 
+@source "../public/js/contact.js";
 
 .intro-name-line {
   opacity: 0;
@@ -298,4 +299,85 @@ body {
 #navbar-container {
   margin: 0;
   padding: 0;
+}
+
+.tech-marquee {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 7%,
+        black 93%,
+        transparent
+    );
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 7%,
+        black 93%,
+        transparent
+    );
+}
+
+.tech-track {
+    width: max-content;
+    animation: tech-scroll 36s linear infinite;
+}
+
+
+.tech-marquee:hover .tech-track {
+    animation-play-state: paused;
+}
+
+
+.tech-group {
+    display: flex;
+    flex-shrink: 0;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+@keyframes tech-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .tech-track {
+        animation: none;
+    }
+}
+
+
+
+#tech-stack {
+    background: linear-gradient(
+        180deg,
+        #07111f 0%,
+        #030b16 25%,
+        #030b16 75%,
+        #07111f 100%
+    );
+}
+
+#tech-stack,
+#hero-container,
+#journey-container {
+    position: relative;
+}
+
+.skills-track {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.skills-track::-webkit-scrollbar {
+    display: none;
 }
