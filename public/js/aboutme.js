@@ -233,7 +233,7 @@ if (aboutMeContainer) {
 
                                             <span class="h-4 w-px shrink-0 bg-slate-800 transition-colors group-hover/value:bg-cyan-400/60"></span>
 
-                                            <span class="min-w-0 flex-1 text-[10px] leading-4 text-slate-300 transition-colors group-hover/value:text-white sm:text-sm">
+                                            <span class="min-w-0 flex-1 text-sm leading-4 text-slate-300 transition-colors group-hover/value:text-white sm:text-sm">
                                                 ${value}
                                             </span>
 
