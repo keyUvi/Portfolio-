@@ -216,7 +216,6 @@ if (aboutMeContainer) {
                                 </div>
                             </div>
 
-                            <!-- Responsive container: adapts to the available width -->
                             <div class="@container w-full min-w-0">
 
                                 <div class="grid grid-cols-1 [@container(min-width:420px)]:grid-cols-2 gap-2 sm:gap-3">
@@ -234,7 +233,7 @@ if (aboutMeContainer) {
 
                                             <span class="h-4 w-px shrink-0 bg-slate-800 transition-colors group-hover/value:bg-cyan-400/60"></span>
 
-                                            <span class="min-w-0 flex-1 text-[10px] leading-4 text-slate-300 transition-colors group-hover/value:text-white sm:text-xs">
+                                            <span class="min-w-0 flex-1 text-[10px] leading-4 text-slate-300 transition-colors group-hover/value:text-white sm:text-sm">
                                                 ${value}
                                             </span>
 
