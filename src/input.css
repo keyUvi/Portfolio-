@@ -1,6 +1,5 @@
 @import "tailwindcss"; 
-@source "../public/js/contact.js";
-@source "../public/js/academy-journey.js";
+@source "../public/js";
 
 @keyframes hologram-flicker {
   0%, 100% { opacity: 1; transform: translateX(0); }
