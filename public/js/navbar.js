@@ -81,7 +81,7 @@ document.getElementById("navbar-container").innerHTML = `
           About me
         </a>
 
-        <a href="/index.html#skills.s" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
+        <a href="/index.html#skills" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
           Skills
         </a>
 

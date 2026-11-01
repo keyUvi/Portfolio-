@@ -60,7 +60,7 @@ const certificates = [
         category: "online",
         organization: "Platzi",
         year: "2026",
-        file: "/certificates/online-course.pdf"
+        file: "/certificates/diploma-notacion-matematica.pdf"
     },
     {
         title: "Curso de logística para startups",
