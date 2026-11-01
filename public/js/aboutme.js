@@ -180,23 +180,22 @@ if (aboutMeContainer) {
                             <div class="mt-6 space-y-4 text-sm leading-7 text-slate-300 sm:text-base sm:leading-8">
 
                                 <p>
-                                    I'm a student passionate about technology,
-                                    learning, and discovering new ways to turn
-                                    ideas into meaningful projects.
+                                    I am a high school student who is committed to learning, growing,
+                                     and giving my best in everything I do. I consider myself responsible and 
+                                     resilient, and I enjoy volunteering and taking on new challenges.
                                 </p>
 
                                 <p>
-                                    I enjoy exploring new tools, developing practical
-                                    skills, and finding creative solutions to challenges.
-                                    Every project is an opportunity to improve,
-                                    gain experience, and see ideas from a new perspective.
+                                    Through the Programa Empresarial ¡Supérate!, I have improved my English,
+                                    developed my ICT skills, and earned technology certifications, including
+                                    Microsoft Excel.
                                 </p>
 
                                 <p>
-                                    I value integrity, empathy, and responsibility
-                                    in everything I do. I believe that consistency,
-                                    curiosity, and a willingness to learn are essential
-                                    for personal and professional growth.
+                                    My goal is to study Logistics and Operations Engineering and build a career where I
+                                    can continue learning and contribute positively to society. I am always open to new
+                                    experiences and opportunities that allow me to grow both personally and
+                                    professionally.
                                 </p>
 
                             </div>

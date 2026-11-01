@@ -48,10 +48,6 @@ document.getElementById("navbar-container").innerHTML = `
 
       <div class="flex shrink-0 items-center gap-3">
 
-        <span class="hidden rounded-full border border-sky-900 px-3 py-2 text-xs text-sky-300 sm:block">
-          US
-        </span>
-
         <button
           id="menu-toggle"
           type="button"
