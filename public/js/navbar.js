@@ -81,19 +81,19 @@ document.getElementById("navbar-container").innerHTML = `
           Academic Journey
         </a>
 
-        <a href="/index.html#sobre-mi" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
+        <a href="/index.html#about-me" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
           About me
         </a>
 
-        <a href="/index.html#habilidades" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
+        <a href="/index.html#skills.s" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
           Skills
         </a>
 
-        <a href="/index.html#Education&certificates" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
+        <a href="/index.html#education-certificates" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
           Education & certificates
         </a>
 
-        <a href="/index.html#contacto" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
+        <a href="/index.html#contact" class="rounded-md px-3 py-3 transition hover:bg-sky-950 hover:text-sky-300">
           Contact
         </a>
 

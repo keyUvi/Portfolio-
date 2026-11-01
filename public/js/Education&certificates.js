@@ -21,6 +21,13 @@ const certificates = [
         file: "/certificates/TOEIC.pdf"
     },
     {
+        title: "Power BI",
+        category: "certifications",
+        organization: "Supérate",
+        year: "2026",
+        file: "/certificates/powerBI.pdf"
+    },
+    {
         title: "Outstanding reader",
         category: "extracurricular",
         organization: "Fiction Express",
@@ -33,6 +40,13 @@ const certificates = [
         organization: "Supérate",
         year: "2025",
         file: "/certificates/Robotic.pdf"
+    },
+    {
+        title: "Telus Conversation",
+        category: "extracurricular",
+        organization: "Supérate",
+        year: "2026",
+        file: "/certificates/telus.pdf"
     },
     {
         title: "Supply Chain",

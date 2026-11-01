@@ -96,7 +96,7 @@ document.getElementById("hero-container").innerHTML = `
           >
 
             <a
-              href="#trayectoria"
+              href="#tech-stack-container"
               class="inline-flex min-h-12 w-full items-center
                      justify-center gap-3 rounded-md
                      border border-sky-400 bg-sky-400
@@ -110,24 +110,6 @@ document.getElementById("hero-container").innerHTML = `
             >
               Explore My Journey
               <span aria-hidden="true">→</span>
-            </a>
-
-            <a
-              href="#sobre-mi"
-              class="inline-flex min-h-12 w-full items-center
-                     justify-center gap-3 rounded-md
-                     border border-slate-600 bg-slate-950/30
-                     px-5 py-3 text-sm font-semibold
-                     text-white backdrop-blur-sm
-                     transition duration-300
-                     hover:-translate-y-1 hover:border-sky-400
-                     hover:bg-sky-950/60
-                     focus-visible:outline-2
-                     focus-visible:outline-offset-4
-                     focus-visible:outline-sky-400 sm:w-auto sm:px-6"
-            >
-              Discover More
-              <span aria-hidden="true">↗</span>
             </a>
 
           </div>
@@ -214,7 +196,6 @@ document.getElementById("hero-container").innerHTML = `
               aria-hidden="true"
             ></div>
 
-            <!-- PHOTO LABEL -->
             <div class="absolute bottom-5 left-5 right-5">
               <p class="text-[10px] font-semibold tracking-[0.25em]
                         text-sky-300">

@@ -1,5 +1,35 @@
 @import "tailwindcss"; 
 @source "../public/js/contact.js";
+@source "../public/js/academy-journey.js";
+
+@keyframes hologram-flicker {
+  0%, 100% { opacity: 1; transform: translateX(0); }
+  20% { opacity: .85; transform: translateX(1px); }
+  22% { opacity: .65; transform: translateX(-2px); }
+  24% { opacity: 1; transform: translateX(0); }
+  70% { opacity: .9; }
+  72% { opacity: .7; }
+  74% { opacity: 1; }
+}
+
+.hologram-frame {
+  animation: hologram-flicker 5s infinite;
+}
+
+.hologram-lines {
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 3px,
+    rgba(34, 211, 238, .16) 4px
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hologram-frame {
+    animation: none;
+  }
+}
 
 .intro-name-line {
   opacity: 0;
