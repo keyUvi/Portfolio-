@@ -1,8 +1,3 @@
-
-// ================= PAGE DATA =================
-// Edit the information and links here.
-// Each project has its own evidence.
-
 const pages = {
   year1: {
     year: "YEAR 01",
@@ -174,9 +169,6 @@ const pages = {
   }
 };
 
-
-// ================= HELPERS =================
-
 const escapeHTML = value =>
   String(value ?? "").replace(/[&<>"']/g, char => ({
     "&": "&amp;",
@@ -212,8 +204,6 @@ if (container) {
   }
 }
 
-
-// ================= PAGE =================
 
 function renderPage(data) {
   const projects = asArray(data.projects);
@@ -332,7 +322,6 @@ function renderPage(data) {
       </div>
     </section>
     
-<!-- FLOATING HOLOGRAM -->
 
     <div id="hologram"
         class="fixed bottom-5 left-4 z-40 flex items-end gap-2 sm:bottom-7 sm:left-7">
@@ -375,7 +364,6 @@ function renderPage(data) {
 
         </div>
 
-        <!-- Collapse / Expand button -->
         <button id="hologram-collapse"
             aria-label="Hide hologram"
             aria-expanded="true"
@@ -425,7 +413,7 @@ function renderPage(data) {
     const content = container.querySelector("#hologram-content");
      collapse = container.querySelector("#hologram-collapse");
 
-    // Hide automatically on mobile
+
     if (window.matchMedia("(max-width: 639px)").matches) {
         content.classList.add("hidden");
         collapse.textContent = "›";
@@ -433,13 +421,12 @@ function renderPage(data) {
         collapse.setAttribute("aria-expanded", "false");
         }
 
-    // Open or close assistant information
     toggle.addEventListener("click", () => {
         const open = panel.classList.toggle("hidden") === false;
         toggle.setAttribute("aria-expanded", String(open));
     });
 
-    // Hide or show the entire hologram
+   
     collapse.addEventListener("click", () => {
         const hidden = content.classList.toggle("hidden");
 
@@ -448,7 +435,6 @@ function renderPage(data) {
         collapse.setAttribute("aria-expanded", String(!hidden));
     })};
 
-// ================= PROJECT DETAILS =================
 
 function renderProject(project, target, projectNumber) {
 
@@ -478,8 +464,6 @@ function renderProject(project, target, projectNumber) {
   const learning = asArray(project.learning);
 
 
-  // OPTIONAL VIDEO
-
   const videoSection = project.video
     ? section("02 // DEMONSTRATION", "Project Video", `
         <video
@@ -494,9 +478,6 @@ function renderProject(project, target, projectNumber) {
         </video>
       `)
     : "";
-
-
-  // PROJECT EVIDENCE
 
   const evidenceSection = evidence.length
     ? section("06 // DOCUMENTATION", "Project Evidence", `
@@ -537,9 +518,6 @@ function renderProject(project, target, projectNumber) {
       `)
     : "";
 
-
-  // TECHNOLOGIES
-
   const technologiesSection = technologies.length
     ? section("03 // TOOLKIT", "Technologies & Tools", `
         <div class="flex flex-wrap gap-3">
@@ -555,8 +533,6 @@ function renderProject(project, target, projectNumber) {
     : "";
 
 
-  // ROLES
-
   const rolesSection = roles.length
     ? section("04 // RESPONSIBILITY", "My Role", `
         <div class="flex flex-wrap gap-3">
@@ -571,8 +547,6 @@ function renderProject(project, target, projectNumber) {
       `)
     : "";
 
-
-  // CONTRIBUTIONS
 
   const contributionsSection = contributions.length
     ? section("05 // CONTRIBUTION", "My Contributions", `
@@ -601,8 +575,6 @@ function renderProject(project, target, projectNumber) {
     : "";
 
 
-  // LEARNING OUTCOMES
-
   const learningSection = learning.length
     ? section("07 // DEVELOPMENT", "Learning Outcomes", `
         <div class="space-y-4">
@@ -617,8 +589,6 @@ function renderProject(project, target, projectNumber) {
       `)
     : "";
 
-
-  // FINAL PROJECT LAYOUT
 
   target.innerHTML = `
     <article class="space-y-6">
