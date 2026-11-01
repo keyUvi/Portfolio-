@@ -8,7 +8,6 @@ const pages = {
         title: "APPLICATION PROJECT",
         year: "YEAR 01",
         category: "APP DEVELOPMENT",
-
         description: [
           "Add your application project description here."
         ],
@@ -326,7 +325,7 @@ function renderPage(data) {
     <div id="hologram"
         class="fixed bottom-5 left-4 z-40 flex items-end gap-2 sm:bottom-7 sm:left-7">
 
-        <!-- Hologram content -->
+        
         <div id="hologram-content" class="flex flex-col items-start">
 
             <div id="hologram-panel"
@@ -351,14 +350,14 @@ function renderPage(data) {
                 aria-expanded="false"
                 class="hologram-frame relative h-24 w-20 overflow-hidden border border-cyan-300/40 bg-[#071522]/70 shadow-[0_0_25px_rgba(34,211,238,0.18)] transition hover:scale-105 sm:h-32 sm:w-28">
 
-                <img src="/imagenes/hologram.png"
+                <img src="/imagenes/Hologram.png"
                 alt="Holographic assistant"
                 class="h-full w-full object-contain">
 
                 <div class="hologram-lines pointer-events-none absolute inset-0"></div>
 
                 <span class="absolute bottom-1 left-0 w-full text-center text-[7px] tracking-widest text-cyan-200">
-                    NODE AI
+                    NODE
                 </span>
             </button>
 
