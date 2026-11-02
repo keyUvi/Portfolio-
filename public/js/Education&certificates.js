@@ -67,7 +67,7 @@ const certificates = [
         category: "online",
         organization: "Platzi",
         year: "2026",
-        file: "/certificates/logística.pdf"
+        file: "/certificates/diploma-logistica-startups.pdf"
     }
 ];
 
