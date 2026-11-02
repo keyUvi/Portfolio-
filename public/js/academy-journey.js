@@ -46,12 +46,12 @@ const pages = {
     projects: [
       {
         id: 1,
-        title: "WEBSITE PROJECT",
+        title: "HavenUp!",
         year: "YEAR 02",
         category: "WEB DEVELOPMENT",
 
         description: [
-          "Add the description of your Year 02 website project here."
+          "A real estate website designed to help people find homes at fair prices based on their preferred location and budget. It included 3D models that allowed users to explore houses and visualize their spaces, as well as an AI assistant that provided guidance and real estate recommendations."
         ],
 
         video: "",
@@ -62,24 +62,23 @@ const pages = {
         contributions: [
           {
             title: "UI/UX Design",
-            description: "Describe your design responsibilities and contributions."
+            description: "I was specifically responsible for designing the house viewing pages, showing how buyers would explore each property on the website, as well as the sellers' profiles, where they could see information such as the number of properties they had listed and other details. The designs were created using Figma."
           },
           {
             title: "Development",
-            description: "Describe your development responsibilities and contributions."
+            description: "I was also responsible for developing the seller's profile page and coding the property viewing page. This included adding key elements such as the map, house images, and property details to give users a clear view of each home."
           }
         ],
 
         evidence: [
-          { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "" },
-          { name: "Wireframes", type: "DESIGN EVIDENCE", url: "" },
+          { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "https://www.figma.com/design/xrTqZMQF0gSE0EZLyPF0p9/HavenUp-?node-id=0-1&t=tQt9xyCJRptBxShk-1" },
           { name: "Style Guide", type: "DESIGN EVIDENCE", url: "" },
-          { name: "GitHub Repository", type: "DEVELOPMENT EVIDENCE", url: "" },
+          { name: "GitHub Repository", type: "DEVELOPMENT EVIDENCE", url: "https://github.com/Tech-LeoF/HavenUp-Website" },
           { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "" }
         ],
 
         learning: [
-          "Add the knowledge and skills you gained from this project."
+          "During this project, I learned how to use Node.js in web development and improved my teamwork skills. I also learned the importance of communication, team connection, responsibility, and active participation. In addition, I applied Scrum values such as commitment, focus, openness, respect, and courage, which helped me work better with my team."
         ]
       }
     ]
