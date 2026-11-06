@@ -410,3 +410,100 @@ body {
 .skills-track::-webkit-scrollbar {
     display: none;
 }
+
+
+@keyframes timeline-travel {
+    0% {
+        left: 0%;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        left: calc(100% - 5rem);
+        opacity: 0;
+    }
+}
+
+.timeline-pulse {
+    animation: timeline-travel 4s ease-in-out infinite;
+}
+
+
+@keyframes timeline-travel-mobile {
+    0% {
+        top: 0%;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        top: calc(100% - 4rem);
+        opacity: 0;
+    }
+}
+
+.timeline-pulse-mobile {
+    animation: timeline-travel-mobile 4s ease-in-out infinite;
+}
+
+@keyframes senior-orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.senior-orbit > div:first-child {
+    border: none;
+
+    background: conic-gradient(
+        from 0deg,
+        transparent 0deg,
+        transparent 230deg,
+        #22d3ee 290deg,
+        #a5f3fc 330deg,
+        transparent 360deg
+    );
+
+    -webkit-mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 1px),
+        #fff calc(100% - 0.5px)
+    );
+
+    mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 1px),
+        #fff calc(100% - 0.5px)
+    );
+
+    animation: senior-orbit 3s linear infinite;
+}
+
+@keyframes journey-glow {
+    0%, 100% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.journey-light {
+    animation: journey-glow 2s ease-in-out infinite;
+}

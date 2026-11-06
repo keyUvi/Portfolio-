@@ -5,7 +5,7 @@ const pages = {
     projects: [
       {
         id: 1,
-        title: "APPLICATION PROJECT",
+        title: "EmpowerMoms",
         year: "YEAR 01",
         category: "APP DEVELOPMENT",
         description: [
@@ -14,7 +14,7 @@ const pages = {
 
         video: "",
 
-        technologies: ["Figma", "Microsoft Power Apps"],
+        technologies: ["Figma", "Microsoft Power Apps", "Miro"],
         roles: ["UI/UX DESIGN", "APP DEVELOPMENT"],
 
         contributions: [

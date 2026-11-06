@@ -15,7 +15,7 @@ if (contactContainer) {
     contactContainer.innerHTML = `
         <section
             id="contact"
-            class="relative overflow-hidden py-16 sm:py-24"
+            class="relative overflow-hidden pt-8 pb-20 sm:pt-10 sm:pb-24"
             aria-labelledby="contact-title"
         >
             <div class="mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-10">
