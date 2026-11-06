@@ -474,6 +474,9 @@
   .-mb-px {
     margin-bottom: -1px;
   }
+  .mb-1 {
+    margin-bottom: var(--spacing);
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -2636,6 +2639,14 @@
     }
     .md\:w-full {
       width: 100%;
+    }
+    .md\:-translate-x-2 {
+      --tw-translate-x: calc(var(--spacing) * -2);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
+    .md\:-translate-x-6 {
+      --tw-translate-x: calc(var(--spacing) * -6);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
     }
     .md\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));

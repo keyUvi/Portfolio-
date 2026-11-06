@@ -12,7 +12,7 @@ if (checklistContainer) {
 
         <div class="relative mx-auto max-w-6xl px-3 sm:px-0">
 
-            <div class="mb-12">
+            <div class="mb-12 md:-translate-x-6">
                 <p class="mb-3 text-[11px] font-semibold tracking-[0.3em] text-cyan-400">
                     PROGRAMA EMPRESARIAL ¡SUPÉRATE!
                 </p>
