@@ -96,7 +96,7 @@ document.getElementById("hero-container").innerHTML = `
           >
 
             <a
-              href="#tech-stack-container"
+              href="#superate-journey"
               class="inline-flex min-h-12 w-full items-center
                      justify-center gap-3 rounded-md
                      border border-sky-400 bg-sky-400

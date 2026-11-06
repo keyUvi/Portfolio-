@@ -14,7 +14,7 @@ if (aboutMeContainer) {
     aboutMeContainer.innerHTML = `
         <section
             id="about-me"
-            class="relative overflow-hidden bg-[#070d18] px-5 pt-4 pb-14 sm:px-8 sm:pt-5 sm:pb-6 lg:px-12 lg:pt-6 lg:pb-8"
+            class="relative overflow-hidden bg-[#070d18] px-4 pt-4 pb-14 sm:px-8 sm:pt-5 sm:pb-6 lg:px-12 lg:pt-6 lg:pb-8 lg:-translate-x-3"
         >
             <div class="mx-auto max-w-6xl">
 
@@ -77,7 +77,7 @@ if (aboutMeContainer) {
                                     <img
                                         src="./imagenes/about-me.png"
                                         alt="Portrait of me"
-                                        class="absolute inset-0 h-full w-full object-contain object-center p-1 transition-transform duration-500 group-hover:scale-[1.02]"
+                                        class="absolute inset-0 h-full w-full scale-[1.5] object-cover object-center transition-transform duration-500 group-hover:scale-[1.55]"
                                         loading="lazy"
                                     />
                                 </div>

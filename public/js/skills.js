@@ -70,7 +70,7 @@ if (skillsContainer) {
 
     skillsContainer.innerHTML = `
         <section id="skills"
-            class="overflow-hidden bg-[#070d18] px-5 pb-14 pt-3 sm:px-8 lg:px-12">
+            class="overflow-hidden bg-[#070d18] px-5 pb-14 pt-3 sm:px-8 lg:px-12 lg:-translate-x-3">
 
             <div class="mx-auto max-w-6xl border-t border-slate-800 pt-7 sm:pt-8">
 
