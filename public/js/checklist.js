@@ -6,13 +6,12 @@ if (checklistContainer) {
     <section id="superate-journey"
         class="relative overflow-hidden bg-[#050B14] px-5 pt-20 pb-4 sm:px-10 sm:pt-24 sm:pb-4 lg:px-16"
 
-        <!-- Background details -->
+    
         <div class="pointer-events-none absolute -right-32 top-10 h-80 w-80 rounded-full bg-cyan-500/[0.04] blur-[100px]"></div>
         <div class="pointer-events-none absolute -left-32 bottom-0 h-72 w-72 rounded-full bg-blue-500/[0.04] blur-[100px]"></div>
 
-        <div class="relative mx-auto max-w-6xl">
+        <div class="relative mx-auto max-w-6xl px-3 sm:px-0">
 
-            <!-- Heading -->
             <div class="mb-12">
                 <p class="mb-3 text-[11px] font-semibold tracking-[0.3em] text-cyan-400">
                     PROGRAMA EMPRESARIAL ¡SUPÉRATE!
@@ -36,10 +35,9 @@ if (checklistContainer) {
                 </div>
             </div>
 
-            <!-- Timeline -->
+       
             <div class="relative mx-auto max-w-5xl">
 
-                <!-- Desktop curved track -->
                 <svg
                     class="pointer-events-none absolute left-0 top-0 hidden h-[125px] w-full overflow-visible md:block"
                     viewBox="0 0 1000 125"
@@ -47,7 +45,7 @@ if (checklistContainer) {
                     fill="none"
                     aria-hidden="true"
                 >
-                    <!-- Base path -->
+                
                     <path
                         d="M166 101 C285 101 340 21 500 21 C660 21 715 101 834 101"
                         stroke="#334155"
@@ -55,7 +53,7 @@ if (checklistContainer) {
                         stroke-linecap="round"
                     />
 
-                    <!-- Completed path -->
+                   
                     <path
                         d="M166 101 C285 101 340 21 500 21"
                         stroke="url(#journey-gradient)"
@@ -70,7 +68,7 @@ if (checklistContainer) {
                         </linearGradient>
                     </defs>
 
-                    <!-- Moving light -->
+                    
                     <circle r="4" fill="#A5F3FC" class="journey-light">
                         <animateMotion
                             dur="4s"
@@ -80,7 +78,7 @@ if (checklistContainer) {
                     </circle>
                 </svg>
 
-                <!-- Mobile track -->
+                
                 <div class="pointer-events-none absolute bottom-24 left-[20px] top-8 w-[2px] bg-slate-700/70 md:hidden">
                     <div class="h-[58%] w-full bg-gradient-to-b from-teal-400 to-cyan-400"></div>
 
@@ -89,10 +87,10 @@ if (checklistContainer) {
 
                 <div class="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-8">
 
-                    <!-- FRESHMAN -->
+                   
                     <article class="relative flex gap-6 md:mt-[80px] md:flex-col md:items-center md:gap-0 md:text-center">
 
-                        <!-- Completed node -->
+                        
                         <div class="relative z-10 flex h-[42px] w-[42px] shrink-0 items-center justify-center rounded-full border border-teal-400/70 bg-[#071923] text-teal-300 shadow-[0_0_18px_rgba(45,212,191,0.15)] md:mb-8">
 
                             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -101,7 +99,7 @@ if (checklistContainer) {
 
                         </div>
 
-                        <!-- Content -->
+                        
                         <div class="min-w-0 flex-1 border-l border-teal-400/20 pl-5 md:w-full md:border-l-0 md:pl-0">
 
                             <p class="text-[10px] font-semibold tracking-[0.25em] text-teal-400">

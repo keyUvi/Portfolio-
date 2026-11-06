@@ -11,7 +11,6 @@ if (footerContainer) {
 
                 <div class="mx-auto max-w-[1500px]">
 
-                    <!-- Brand -->
                     <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
 
                         <a href="#home"
@@ -27,10 +26,10 @@ if (footerContainer) {
 
                     <div class="my-7 h-px bg-gradient-to-r from-cyan-400/30 via-slate-600/40 to-transparent"></div>
 
-                    <!-- Main information -->
+                  
                     <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
 
-                        <!-- Journey -->
+                       
                         <div class="space-y-4">
 
                             <p class="text-[9px] font-semibold tracking-[0.22em] text-slate-500">
@@ -60,7 +59,7 @@ if (footerContainer) {
 
                         </div>
 
-                        <!-- Creator -->
+                      
                         <div class="border-t border-cyan-400/15 pt-6 sm:border-l sm:border-t-0 sm:pl-8 sm:pt-0">
 
                             <p class="text-[9px] font-semibold tracking-[0.22em] text-slate-500">
@@ -79,7 +78,6 @@ if (footerContainer) {
 
                     </div>
 
-                    <!-- Bottom information inside the same footer -->
                     <div class="mt-8 border-t border-slate-700/60 pt-5">
 
                         <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
