@@ -75,9 +75,9 @@ if (aboutMeContainer) {
 
                                 <div class="aspect-[3/3]">
                                     <img
-                                        src="./imagenes/about-me.png"
+                                        src="./imagenes/keyli.png"
                                         alt="Portrait of me"
-                                        class="absolute inset-0 h-full w-full scale-[1.5] object-cover object-center transition-transform duration-500 group-hover:scale-[1.55]"
+                                        class="absolute inset-0 h-full w-full object-contain object-center transition-transform duration-500 group-hover:scale-[1.02]"
                                         loading="lazy"
                                     />
                                 </div>

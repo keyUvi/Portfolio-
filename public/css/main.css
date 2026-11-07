@@ -803,6 +803,9 @@
   .scale-\[1\.5\] {
     scale: 1.5;
   }
+  .scale-\[1\.15\] {
+    scale: 1.15;
+  }
   .animate-pulse {
     animation: var(--animate-pulse);
   }
@@ -2125,6 +2128,9 @@
     }
     .group-hover\:scale-\[1\.13\]:is(:where(.group):hover *) {
       scale: 1.13;
+    }
+    .group-hover\:scale-\[1\.20\]:is(:where(.group):hover *) {
+      scale: 1.20;
     }
     .group-hover\:scale-\[1\.55\]:is(:where(.group):hover *) {
       scale: 1.55;
