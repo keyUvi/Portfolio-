@@ -159,7 +159,8 @@ const pages = {
         ],
 
         evidence: [
-          { name: "GitHub Repository", type: "SOURCE CODE", url: "https://github.com/keyUvi/vidaSaludable" }
+          { name: "GitHub Repository", type: "SOURCE CODE", url: "https://github.com/keyUvi/vidaSaludable" },
+          { name: "Live Demo", type: "SOURCE CODE", url: "https://vidasaludableinformation.vercel.app" }
         ],
 
         learning: [
