@@ -466,7 +466,7 @@ function renderProject(project, target, projectNumber) {
   const videoSection = project.video
     ? section("02 // DEMONSTRATION", "Visual Evidences", `
         <video
-          class="aspect-video w-full border border-cyan-400/20 bg-[#030914]"
+          class="aspect-video h-full w-full object-contain border border-cyan-400/20 bg-[#030914]"
           controls
           preload="metadata"
           playsinline>
