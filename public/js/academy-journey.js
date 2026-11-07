@@ -9,32 +9,34 @@ const pages = {
         year: "YEAR 01",
         category: "APP DEVELOPMENT",
         description: [
-          "Add your application project description here."
+          "EmpowerMoms was an application designed to support single mothers who faced financial challenges and had to raise their children on their own. Our goal was to help them find job opportunities through companies that offered flexible schedules and supported their professional growth. The application also included a virtual CV where users could store their professional information, making it easier to connect with job opportunities. Additionally, we offered childcare services for mothers who needed a safe place for their children while working, helping them achieve greater financial stability."
         ],
 
         video: "",
 
-        technologies: ["Figma", "Microsoft Power Apps", "Miro"],
+        technologies: ["Figma", "Microsoft Power Apps", "Miro", "Planner"],
         roles: ["UI/UX DESIGN", "APP DEVELOPMENT"],
 
         contributions: [
           {
             title: "Interface Design",
-            description: "Describe your contributions to the interface and prototype in Figma."
+            description: "I was responsible for designing the main page, which was the first screen users would see after logging in. I also designed the left-side navigation bar and the user profile section, which included a virtual CV that allowed users to keep their professional information in one place and made it easier for them to find job opportunities."
           },
           {
             title: "Application Development",
-            description: "Describe your contributions to the application in Microsoft Power Apps."
+            description: "I contributed to developing the application in Power Apps by making sure the layouts were consistent and fixing design details. Additionally, I created a section where users could search for childcare centers based on their area, municipality, and department. I also integrated a map into the application to help users locate these services more easily."
           }
         ],
 
         evidence: [
           { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "" },
-          { name: "Power Apps Application", type: "APPLICATION EVIDENCE", url: "" }
+          { name: "Power Apps Application", type: "APPLICATION EVIDENCE", url: "" },
+          { name: "Moscow Method", type: "APPLICATION EVIDENCE", url: "" },
+          { name: "Planner", type: "APPLICATION EVIDENCE", url: "" }
         ],
 
         learning: [
-          "Add the knowledge and skills you gained from this project."
+          "During this project, I learned the basics of teamwork and effective communication. I also learned to use Planner to organize and assign tasks, create user flows, and prioritize activities using the MoSCoW method. This experience helped me improve my organization, planning, and teamwork skills."
         ]
       }
     ]
@@ -56,8 +58,8 @@ const pages = {
 
         video: "",
 
-        technologies: [],
-        roles: [],
+        technologies: ["figma", "canva", "Clerk", "Next.js", "Ollama", "Blender", "Tailwind CSS", "PostgreSQL"],
+        roles: ["UI/UX DESIGN", "WEB DEVELOPMENT"],
 
         contributions: [
           {
@@ -67,14 +69,13 @@ const pages = {
           {
             title: "Development",
             description: "I was also responsible for developing the seller's profile page and coding the property viewing page. This included adding key elements such as the map, house images, and property details to give users a clear view of each home."
-          }
+          },
         ],
 
         evidence: [
           { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "https://www.figma.com/design/xrTqZMQF0gSE0EZLyPF0p9/HavenUp-?node-id=0-1&t=tQt9xyCJRptBxShk-1" },
-          { name: "Style Guide", type: "DESIGN EVIDENCE", url: "" },
           { name: "GitHub Repository", type: "DEVELOPMENT EVIDENCE", url: "https://github.com/Tech-LeoF/HavenUp-Website" },
-          { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "" }
+          { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "https://haven-up-website.vercel.app/" }
         ],
 
         learning: [
@@ -90,40 +91,42 @@ const pages = {
     projects: [
       {
         id: 1,
-        title: "WEBSITE PROJECT",
+        title: "Valtrust",
         year: "YEAR 03",
         category: "WEB DEVELOPMENT",
 
         description: [
-          "Add the description of your Year 03 website project here."
+          "Valtrust was a real estate platform designed to help property owners estimate the value of their homes through a detailed evaluation process based on factors such as location, land size, and nearby services. It also allowed sellers to list their properties and connect with potential buyers. Additionally, it included an AI assistant to answer real estate questions. Users could access the platform as buyers or sellers, with security features such as identity, facial, and property ownership verification to ensure trustworthy listings."
         ],
 
         video: "",
 
-        technologies: [],
-        roles: [],
+        technologies: ["Figma", "Canva",
+
+          "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "Google", "Clerk", "Gemini"
+        ],
+        roles: ["UI/UX DESIGN"],
 
         contributions: [
           {
             title: "UI/UX Design",
-            description: "Describe your design responsibilities and contributions."
+            description: "I was responsible for designing the main pages for both buyers and sellers using Figma. For buyers, I designed sections featuring popular properties, recommended homes, local listings, and customer reviews. For sellers, I designed a dashboard where they could view their listed properties, add new ones, explore other properties, and read customer reviews. I also worked collaboratively with a teammate to design the property evaluation forms, allowing sellers to provide important details about their homes to help determine their value."
           },
           {
-            title: "Development",
-            description: "Describe your development responsibilities and contributions."
+            title: "Marketing",
+            description: "I also contributed to the marketing presentation by designing several slides, including the introduction and the solution section. My work focused on creating visual elements."
           }
         ],
 
         evidence: [
           { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "" },
-          { name: "Wireframes", type: "DESIGN EVIDENCE", url: "" },
-          { name: "Style Guide", type: "DESIGN EVIDENCE", url: "" },
           { name: "GitHub Repository", type: "DEVELOPMENT EVIDENCE", url: "" },
-          { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "" }
+          { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "" },
+          { name: "Canva", type: "Marketing EVIDENCE", url: "" }
         ],
 
         learning: [
-          "Add the knowledge and skills you gained from this project."
+          "During this project, I strengthened my communication and teamwork skills by working with a team of 16 members. We stayed well organized, communicated effectively, and worked together to achieve a successful result, which allowed us to present our project at the event. This experience helped me apply the skills I had developed over the previous years and taught me that we are always capable of learning new things, even when we don't know everything."
         ]
       }
     ]
@@ -140,7 +143,7 @@ const pages = {
         category: "WEB DEVELOPMENT",
 
         description: [
-          "Add a description of your personal HTML and CSS project here."
+          "Vida Saludable was an informational website focused on promoting healthy habits and providing useful information about a healthy lifestyle. It was designed as a simple, easy-to-navigate page, using green and white colors to reflect the theme of health and well-being."
         ],
 
         video: "",
@@ -151,16 +154,16 @@ const pages = {
         contributions: [
           {
             title: "My Work",
-            description: "Describe what you designed and developed for this project."
+            description: "I was responsible for developing the entire HTML structure and creating the visual design using CSS. I also chose the color palette and organized the content to make the website simple, visually appealing, and easy to understand."
           }
         ],
 
         evidence: [
-          { name: "GitHub Repository", type: "SOURCE CODE", url: "" }
+          { name: "GitHub Repository", type: "SOURCE CODE", url: "https://github.com/keyUvi/vidaSaludable" }
         ],
 
         learning: [
-          "Add what you learned while creating this project."
+          "Through this project, I developed my leadership and teamwork skills. As the team leader, I was responsible for assigning tasks and helping my teammates understand the code by explaining concepts whenever they needed support. This experience taught me the importance of communication, patience, and supporting others to achieve a common goal."
         ]
       }
     ]
