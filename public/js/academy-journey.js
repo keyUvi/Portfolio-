@@ -58,7 +58,7 @@ const pages = {
 
         video: "",
 
-        technologies: ["figma", "canva", "Clerk", "Next.js", "Ollama", "Blender", "Tailwind CSS", "PostgreSQL"],
+        technologies: ["figma", "canva", "Clerk", "Next.js", "Ollama", "Blender", "Tailwind CSS", "PostgreSQL", "React", "node.js", "Supabase", "prisma", "Three.js"],
         roles: ["UI/UX DESIGN", "WEB DEVELOPMENT"],
 
         contributions: [
@@ -103,8 +103,7 @@ const pages = {
 
         technologies: ["Figma", "Canva",
 
-          "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "Google", "Clerk", "Gemini"
-        ],
+          "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "Google", "Clerk", "Gemini"],
         roles: ["UI/UX DESIGN"],
 
         contributions: [
@@ -138,7 +137,7 @@ const pages = {
     projects: [
       {
         id: 1,
-        title: "HTML & CSS PROJECT",
+        title: "Vida Saludable",
         year: "PERSONAL PROJECT",
         category: "WEB DEVELOPMENT",
 
