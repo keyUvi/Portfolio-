@@ -29,10 +29,9 @@ const pages = {
         ],
 
         evidence: [
-          { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "" },
+          { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "https://www.figma.com/design/UK59HHqMS1ckeraAJ14A0i/Untitled?node-id=0-1&t=4zfvJ5kvTKrNGgLc-1" },
           { name: "Power Apps Application", type: "APPLICATION EVIDENCE", url: "" },
-          { name: "Moscow Method", type: "APPLICATION EVIDENCE", url: "" },
-          { name: "Planner", type: "APPLICATION EVIDENCE", url: "" }
+          { name: "Moscow Method", type: "APPLICATION EVIDENCE", url: "https://miro.com/welcomeonboard/WFMyRW1rcC9RbzdndTlON1NRSHp0Mm1pelhJMVp4RVRsbXRrZFMwcnJpbmtBVXJPQk1iU1U1ZGZLZ1g5aDJDK2xZQTJ5V3pwWERzRUovZTVPY0YxcXFHdk52cE9OMnVsbStuUGZQZVkyVkozSXhMWnNWV2VNQ1RNUS9JTWhRMFZzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=770353373967" }
         ],
 
         learning: [
@@ -118,10 +117,9 @@ const pages = {
         ],
 
         evidence: [
-          { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "" },
-          { name: "GitHub Repository", type: "DEVELOPMENT EVIDENCE", url: "" },
-          { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "" },
-          { name: "Canva", type: "Marketing EVIDENCE", url: "" }
+          { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "https://www.figma.com/design/Y1C4CwJ9eTaHZuCNNSU7dA/Valtrust?node-id=0-1&t=QwVjFy9BdmEeKAyV-1" },
+          { name: "GitHub Repository", type: "DEVELOPMENT EVIDENCE", url: "https://github.com/ValtrustET26/ValTrust-Web-Site" },
+          { name: "Live Demo", type: "DEVELOPMENT EVIDENCE", url: "https://valtrust-website.vercel.app/" },
         ],
 
         learning: [
