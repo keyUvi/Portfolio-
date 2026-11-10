@@ -62,7 +62,7 @@ const pages = {
         contributions: [
           {
             title: "UI/UX Design",
-            description: "I was specifically responsible for designing the house viewing pages, showing how buyers would explore each property on the website, as well as the sellers' profiles, where they could see information such as the number of properties they had listed and other details. The designs were created using Figma."
+            description: "I was specifically responsible for designing the house viewing page, showing how buyers would explore each property on the website, as well as the sellers' and buyers' profile, where they could see information such as the number of properties they had listed and other details. Additionally, I designed the favorites page where the user is able to see the houses they liked'"
           },
           {
             title: "Development",
