@@ -55,7 +55,7 @@ const pages = {
           "A real estate website designed to help people find homes at fair prices based on their preferred location and budget. It included 3D models that allowed users to explore houses and visualize their spaces, as well as an AI assistant that provided guidance and real estate recommendations."
         ],
 
-        video: "/videos/test-video.mp4",
+        video: "/videos/HavenUpevidence.mp4",
 
         technologies: ["figma", "canva", "Clerk", "Next.js", "Ollama", "Blender", "Tailwind CSS", "PostgreSQL", "React", "node.js", "Supabase", "prisma", "Three.js"],
         roles: ["UI/UX DESIGN", "WEB DEVELOPMENT"],
@@ -98,7 +98,7 @@ const pages = {
           "Valtrust was a real estate platform designed to help property owners estimate the value of their homes through a detailed evaluation process based on factors such as location, land size, and nearby services. It also allowed sellers to list their properties and connect with potential buyers. Additionally, it included an AI assistant to answer real estate questions. Users could access the platform as buyers or sellers, with security features such as identity, facial, and property ownership verification to ensure trustworthy listings."
         ],
 
-        video: "/videos/test-video.mp4",
+        video: "/videos/Valtrustevidence.mp4",
 
         technologies: ["Figma", "Canva",
 
@@ -143,7 +143,7 @@ const pages = {
           "Vida Saludable was an informational website focused on promoting healthy habits and providing useful information about a healthy lifestyle. It was designed as a simple, easy-to-navigate page, using green and white colors to reflect the theme of health and well-being."
         ],
 
-        video: "/videos/test-video.mp4",
+        video: "/videos/Vidasaludableevidence.mp4",
 
         technologies: ["HTML", "CSS"],
         roles: ["DESIGN", "DEVELOPMENT"],
@@ -467,6 +467,9 @@ function renderProject(project, target, projectNumber) {
     ? section("02 // DEMONSTRATION", "Visual Evidences", `
         <video
           class="aspect-video h-full w-full object-contain border border-cyan-400/20 bg-[#030914]"
+          autoplay
+          muted
+          loop
           controls
           preload="metadata"
           playsinline>
