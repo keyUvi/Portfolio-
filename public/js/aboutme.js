@@ -143,8 +143,8 @@ if (aboutMeContainer) {
                             </div>
 
                             <p class="mt-4 text-sm leading-7 text-slate-300">
-                                Learn with purpose. Build with intention.
-                                Grow through experience.
+                                A positive mindset, a strong attitude, and the 
+                                commitment to always give my best.
                             </p>
 
                             <div class="mt-4 flex items-center gap-2">

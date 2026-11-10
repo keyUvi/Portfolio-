@@ -1,4 +1,3 @@
-
 const skillsContainer = document.getElementById("skills-container");
 
 if (skillsContainer) {
@@ -69,20 +68,19 @@ if (skillsContainer) {
     ];
 
     skillsContainer.innerHTML = `
-        <section id="skills"
+        <section
+            id="skills"
             class="overflow-hidden bg-[#070d18] px-5 pb-14 pt-3 sm:px-8 lg:px-12 lg:-translate-x-3">
 
             <div class="mx-auto max-w-6xl border-t border-slate-800 pt-7 sm:pt-8">
 
                 <header class="mb-6 flex items-end justify-between gap-4">
                     <div>
-                        <p class="mb-2 text-[10px] font-semibold uppercase
-                            tracking-[0.3em] text-sky-400 sm:text-xs">
+                        <p class="mb-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-sky-400 sm:text-xs">
                             Capabilities / Skills_01
                         </p>
 
-                        <h2 class="text-2xl font-semibold tracking-tight
-                            text-white sm:text-3xl">
+                        <h2 class="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
                             Skills
                         </h2>
                     </div>
@@ -92,13 +90,7 @@ if (skillsContainer) {
                             id="skills-prev"
                             type="button"
                             aria-label="Previous skills"
-                            class="flex h-8 w-8 items-center justify-center
-                                rounded-full border border-slate-800
-                                text-sm text-slate-400 transition
-                                hover:border-cyan-400/60 hover:text-cyan-300
-                                focus-visible:outline-none
-                                focus-visible:ring-2 focus-visible:ring-cyan-400
-                                disabled:cursor-not-allowed disabled:opacity-25">
+                            class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-800 text-sm text-slate-400 transition hover:border-cyan-400/60 hover:text-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 disabled:cursor-not-allowed disabled:opacity-25">
                             <span aria-hidden="true">←</span>
                         </button>
 
@@ -106,157 +98,119 @@ if (skillsContainer) {
                             id="skills-next"
                             type="button"
                             aria-label="Next skills"
-                            class="flex h-8 w-8 items-center justify-center
-                                rounded-full border border-slate-800
-                                text-sm text-slate-400 transition
-                                hover:border-cyan-400/60 hover:text-cyan-300
-                                focus-visible:outline-none
-                                focus-visible:ring-2 focus-visible:ring-cyan-400
-                                disabled:cursor-not-allowed disabled:opacity-25">
+                            class="flex h-8 w-8 items-center justify-center rounded-full border border-slate-800 text-sm text-slate-400 transition hover:border-cyan-400/60 hover:text-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 disabled:cursor-not-allowed disabled:opacity-25">
                             <span aria-hidden="true">→</span>
                         </button>
                     </div>
                 </header>
 
-                <div id="skills-track"
-                    class="skills-track flex snap-x snap-mandatory gap-3
-                        overflow-x-auto scroll-smooth pb-1"
+                <div
+                    id="skills-track"
+                    class="skills-track flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth pb-1"
                     aria-label="Skills carousel">
 
                     ${skills.map((skill, index) => `
                         <button
                             type="button"
                             data-skill-index="${index}"
-                            class="group relative flex min-h-[58px]
-                                w-[190px] shrink-0 snap-start items-center
-                                gap-3 border border-slate-800/90
-                                bg-[#080f1b] px-3.5 py-3 text-left
-                                transition duration-200
-                                hover:border-cyan-400/50
-                                hover:bg-cyan-400/[0.04]
-                                focus-visible:outline-none
-                                focus-visible:ring-2
-                                focus-visible:ring-cyan-400
-                                sm:w-[210px]">
+                            class="group relative flex min-h-[58px] w-[190px] shrink-0 snap-start items-center gap-3 border border-slate-800/90 bg-[#080f1b] px-3.5 py-3 text-left transition duration-200 hover:border-cyan-400/50 hover:bg-cyan-400/[0.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 sm:w-[210px]">
 
-                            <span class="shrink-0 font-mono text-[10px]
-                                tracking-wider text-cyan-500/80">
+                            <span class="shrink-0 font-mono text-[10px] tracking-wider text-cyan-500/80">
                                 ${String(index + 1).padStart(2, "0")}
                             </span>
 
-                            <span class="h-5 w-px shrink-0 bg-slate-800
-                                transition group-hover:bg-cyan-400/50"></span>
+                            <span class="h-5 w-px shrink-0 bg-slate-800 transition group-hover:bg-cyan-400/50"></span>
 
-                            <span class="min-w-0 flex-1 text-sm
-                                text-slate-300 transition
-                                group-hover:text-white">
+                            <span class="min-w-0 flex-1 text-sm text-slate-300 transition group-hover:text-white">
                                 ${skill.name}
                             </span>
 
-                            <span class="shrink-0 text-xs text-slate-500
-                                transition group-hover:translate-x-0.5
-                                group-hover:text-cyan-300"
+                            <span
+                                class="shrink-0 text-xs text-slate-500 transition group-hover:translate-x-0.5 group-hover:text-cyan-300"
                                 aria-hidden="true">↗</span>
                         </button>
                     `).join("")}
                 </div>
             </div>
+        </section>
 
+        <div
+            id="skill-modal"
+            class="fixed inset-0 z-[9999] hidden items-center justify-center overflow-y-auto bg-[#020711]/85 p-4 backdrop-blur-sm"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="skill-modal-title">
 
-            <div id="skill-modal"
-                class="fixed inset-0 z-50 hidden items-center
-                    justify-center overflow-y-auto bg-[#020711]/85
-                    p-4 backdrop-blur-sm"
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby="skill-modal-title">
+            <div
+                class="my-auto max-h-[90vh] w-full max-w-xl overflow-y-auto border border-slate-800 bg-[#0a1320] shadow-[0_0_50px_rgba(34,211,238,0.07)]">
 
-                <div class="my-auto max-h-[90vh] w-full max-w-xl
-                    overflow-y-auto border border-slate-800
-                    bg-[#0a1320]
-                    shadow-[0_0_50px_rgba(34,211,238,0.07)]">
+                <div class="flex items-center justify-between gap-4 border-b border-slate-800 px-5 py-3.5">
 
-                    <div class="flex items-center justify-between
-                        gap-4 border-b border-slate-800 px-5 py-3.5">
+                    <p class="text-[9px] font-semibold uppercase tracking-[0.25em] text-cyan-400">
+                        Skill details / Profile
+                    </p>
 
-                        <p class="text-[9px] font-semibold uppercase
-                            tracking-[0.25em] text-cyan-400">
-                            Skill details / Profile
-                        </p>
+                    <button
+                        id="skill-modal-close"
+                        type="button"
+                        aria-label="Close skill details"
+                        class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xl text-slate-400 transition hover:bg-slate-800 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400">
+                        ×
+                    </button>
+                </div>
 
-                        <button id="skill-modal-close"
-                            type="button"
-                            aria-label="Close skill details"
-                            class="flex h-8 w-8 shrink-0 items-center
-                                justify-center rounded-full
-                                text-xl text-slate-400 transition
-                                hover:bg-slate-800 hover:text-white
-                                focus-visible:outline-none
-                                focus-visible:ring-2
-                                focus-visible:ring-cyan-400">
-                            ×
-                        </button>
+                <div class="p-5 sm:p-7">
+
+                    <div class="mb-6 overflow-hidden border border-slate-800 bg-[#070d18]">
+
+                        <img
+                            id="skill-modal-image"
+                            src=""
+                            alt=""
+                            class="hidden h-[260px] w-full object-cover">
+
+                        <div
+                            id="skill-image-placeholder"
+                            class="flex min-h-[180px] flex-col items-center justify-center gap-3 p-6 text-center">
+
+                            <span class="text-2xl text-cyan-500/70" aria-hidden="true">
+                                ▧
+                            </span>
+
+                            <p class="max-w-xs text-xs leading-5 text-slate-500">
+                                Add an image to showcase your experience with this skill.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="p-5 sm:p-7">
+                    <p class="mb-2 text-[9px] uppercase tracking-[0.25em] text-sky-400">
+                        Skill overview
+                    </p>
 
-                       
-                        <div class="mb-6 overflow-hidden border
-                            border-slate-800 bg-[#070d18]">
+                    <h3
+                        id="skill-modal-title"
+                        class="text-2xl font-semibold text-white sm:text-3xl">
+                    </h3>
 
-                            <img id="skill-modal-image"
-                                src=""
-                                alt=""
-                                class="hidden h-[260px] w-full object-cover"
-                            />
+                    <p
+                        id="skill-modal-description"
+                        class="mt-4 text-sm leading-7 text-slate-300">
+                    </p>
 
-                            <div id="skill-image-placeholder"
-                                class="flex min-h-[180px] flex-col
-                                    items-center justify-center gap-3
-                                    p-6 text-center">
+                    <div class="mt-6 border-l-2 border-cyan-400 bg-cyan-400/[0.04] p-4">
 
-                                <span class="text-2xl text-cyan-500/70"
-                                    aria-hidden="true">▧</span>
-
-                                <p class="max-w-xs text-xs leading-5
-                                    text-slate-500">
-                                    Add an image to showcase your
-                                    experience with this skill.
-                                </p>
-                            </div>
-                        </div>
-
-                        <p class="mb-2 text-[9px] uppercase
-                            tracking-[0.25em] text-sky-400">
-                            Skill overview
+                        <p class="text-[9px] font-semibold uppercase tracking-[0.2em] text-cyan-400">
+                            Practical experience
                         </p>
 
-                        <h3 id="skill-modal-title"
-                            class="text-2xl font-semibold text-white
-                                sm:text-3xl">
-                        </h3>
-
-                        <p id="skill-modal-description"
-                            class="mt-4 text-sm leading-7 text-slate-300">
+                        <p
+                            id="skill-modal-example"
+                            class="mt-2 text-sm leading-7 text-slate-300">
                         </p>
-
-                        <div class="mt-6 border-l-2 border-cyan-400
-                            bg-cyan-400/[0.04] p-4">
-
-                            <p class="text-[9px] font-semibold uppercase
-                                tracking-[0.2em] text-cyan-400">
-                                Practical experience
-                            </p>
-
-                            <p id="skill-modal-example"
-                                class="mt-2 text-sm leading-7
-                                    text-slate-300">
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     `;
 
     const track = skillsContainer.querySelector("#skills-track");
@@ -266,14 +220,12 @@ if (skillsContainer) {
     const modal = skillsContainer.querySelector("#skill-modal");
     const closeButton = skillsContainer.querySelector("#skill-modal-close");
     const modalTitle = skillsContainer.querySelector("#skill-modal-title");
-    const modalDescription =
-        skillsContainer.querySelector("#skill-modal-description");
-    const modalExample =
-        skillsContainer.querySelector("#skill-modal-example");
-    const modalImage =
-        skillsContainer.querySelector("#skill-modal-image");
-    const imagePlaceholder =
-        skillsContainer.querySelector("#skill-image-placeholder");
+    const modalDescription = skillsContainer.querySelector("#skill-modal-description");
+    const modalExample = skillsContainer.querySelector("#skill-modal-example");
+    const modalImage = skillsContainer.querySelector("#skill-modal-image");
+    const imagePlaceholder = skillsContainer.querySelector("#skill-image-placeholder");
+
+    document.body.appendChild(modal);
 
     let lastFocusedElement = null;
 
@@ -322,7 +274,6 @@ if (skillsContainer) {
         modalDescription.textContent = skill.description;
         modalExample.textContent = skill.example;
 
-        
         modalImage.classList.add("hidden");
         imagePlaceholder.classList.remove("hidden");
 
