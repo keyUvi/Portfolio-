@@ -12,7 +12,7 @@ const pages = {
           "EmpowerMoms was an application designed to support single mothers who faced financial challenges and had to raise their children on their own. Our goal was to help them find job opportunities through companies that offered flexible schedules and supported their professional growth. The application also included a virtual CV where users could store their professional information, making it easier to connect with job opportunities. Additionally, we offered childcare services for mothers who needed a safe place for their children while working, helping them achieve greater financial stability."
         ],
 
-        video: "/videos/test-video.mp4",
+        video: "/videos/EmpowerMomsevidence.mp4",
 
         technologies: ["Figma", "Microsoft Power Apps", "Miro", "Planner"],
         roles: ["UI/UX DESIGN", "APP DEVELOPMENT"],
@@ -30,7 +30,6 @@ const pages = {
 
         evidence: [
           { name: "Figma Prototype", type: "DESIGN EVIDENCE", url: "https://www.figma.com/design/UK59HHqMS1ckeraAJ14A0i/Untitled?node-id=0-1&t=4zfvJ5kvTKrNGgLc-1" },
-          { name: "Power Apps Application", type: "APPLICATION EVIDENCE", url: "" },
           { name: "Moscow Method", type: "APPLICATION EVIDENCE", url: "https://miro.com/welcomeonboard/WFMyRW1rcC9RbzdndTlON1NRSHp0Mm1pelhJMVp4RVRsbXRrZFMwcnJpbmtBVXJPQk1iU1U1ZGZLZ1g5aDJDK2xZQTJ5V3pwWERzRUovZTVPY0YxcXFHdk52cE9OMnVsbStuUGZQZVkyVkozSXhMWnNWV2VNQ1RNUS9JTWhRMFZzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=770353373967" }
         ],
 
